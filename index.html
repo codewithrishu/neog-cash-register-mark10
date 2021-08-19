@@ -8,6 +8,46 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
+    <div class="container">
+        <h1> 💰 Cash Manager</h1>
+        <h3>Enter the bill amount and cash given by the customer and know minimum number of notes to return.</h3>
+        <label>
+            Bill Amount:
+            <input type="text" id="bill">
+        </label>
+        <button class="next">Next</button>
+        <label id="label" style="display: none;">
+            Cash Given:
+            <input type="number" id="cash">
+        </label>
+        <button id="btn" style="display: none;" >Check</button>
+        <div id="message"></div>
+        <table border="2" id="table" style="display: none;">
+            <tr>
+                <td>No. of notes</td>
+                <td class="notes-return"></td>
+                <td class="notes-return"></td>
+                <td class="notes-return"></td>
+                <td class="notes-return"></td>
+                <td class="notes-return"></td>
+                <td class="notes-return"></td>
+                <td class="notes-return"></td>
+            </tr>
+            <tr>
+                <td>Notes</td>
+                <td>2000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>50</td>
+                <td>10</td>
+                <td>5</td>
+                <td>1</td>
+            </tr>
+        </table>
+    
+    </div>
+   
+
     
 
 
