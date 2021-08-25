@@ -46,7 +46,7 @@ function checkBillAmountValid() {
 function clickCashGivenValid() {
         clearHandler()
 
-        if(CashAmount.value >= billAmount.value)
+        if(Number(CashAmount.value) >= Number(billAmount.value))
             {
                 //calling calculate function
                 calculateChange();
